@@ -1,0 +1,17 @@
+:host div {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid;
+}
+:host div .tabla {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  border: solid;
+}
+:host div .tabla img {
+  width: 400px;
+  height: auto;
+}

@@ -1,0 +1,15 @@
+.fotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mat-toolbar {
+  height: 70px;
+}
+
+.mycard {
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 15%;
+}

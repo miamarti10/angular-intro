@@ -1,0 +1,15 @@
+<h1>NBA</h1>
+<div>
+  <div class='tabla'*ngFor='let info of nba'>
+    <h1>{{info.year}}</h1>
+    <h1>{{info.champion}}</h1>
+    <img src="{{info.logo}}" alt=""/>
+  <h1>MVP's</h1>
+  <ul>
+      <li *ngFor="let mvp of info.player">
+        {{ mvp }}
+      </li>
+    </ul>
+  </div>
+</div>
+
